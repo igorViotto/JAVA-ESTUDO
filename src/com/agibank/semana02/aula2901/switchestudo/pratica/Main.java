@@ -1,4 +1,4 @@
-package com.agibank.switchestudo.exerc01;
+package com.agibank.semana02.aula2901.switchestudo.pratica;
 
 import java.util.Scanner;
 

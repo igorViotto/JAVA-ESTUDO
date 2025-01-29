@@ -1,7 +1,7 @@
-package com.agibank.switchestudo.exerc02;
+package com.agibank.semana02.aula2901.switchestudo.pratica;
 import java.util.Scanner;
 
-public class Main {
+public class   Main02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

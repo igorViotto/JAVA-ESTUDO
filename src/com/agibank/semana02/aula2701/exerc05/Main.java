@@ -1,4 +1,4 @@
-package com.agibank.exerc05;
+package com.agibank.semana02.aula2701.exerc05;
 import java.util.Scanner;
 
 public class Main {
