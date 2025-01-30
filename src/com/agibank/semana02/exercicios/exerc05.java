@@ -1,7 +1,7 @@
-package com.agibank.semana02.aula3001;
+package com.agibank.semana02.exercicios;
 import java.util.Scanner;
 
-public class pratica03 {
+public class exerc05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
