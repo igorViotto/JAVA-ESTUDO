@@ -19,7 +19,7 @@ public class exercicio01 {
         } while (numTab < 0);
             for (num = 1; num <= 10; num++){
                 result = numTab * num;
-                System.out.print(+numTab+" X "+num+" = "+result+"\n");
+                System.out.printf(numTab+" X "+num+" = "+result+"\n");
             }
 
 
