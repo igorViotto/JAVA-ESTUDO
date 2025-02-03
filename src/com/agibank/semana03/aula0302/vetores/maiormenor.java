@@ -6,19 +6,18 @@ public class maiormenor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n = 10;
-        int[] v = new int[n];
+        int[] v = new int[10];
         int i;
 
-        for (i = 0; i < n; i++) {
-            System.out.print("Informe " + (i + 1) + " valor: ");
+        for (i = 0; i < 10; i++) {
+            System.out.print("Informe o valor do mes " + (i + 1) + " : ");
             v[i] = sc.nextInt();
         }
 
         int maior = v[0];
         int menor = v[0];
 
-        for (i = 1; i < n; i++) {
+        for (i = 1; i < 10; i++) {
             if (v[i] > maior) {
                 maior = v[i];
             }
@@ -27,9 +26,8 @@ public class maiormenor {
             }
         }
 
-        System.out.println("\nO maior preco atingido eh: " + maior);
-        System.out.println("O menor preco atingido eh: " + menor);
-
+        System.out.println("\nO maior preco atingido é: " + maior);
+        System.out.println("O menor preco atingido é: " + menor);
         sc.close();
     }
 }
