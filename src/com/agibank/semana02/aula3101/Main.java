@@ -12,9 +12,10 @@ public class Main {
         double angulo, velocidade;
         double vx, vy, t;
 
-        System.out.print("Insira a velocidade: ");
-        velocidade = sc.nextFloat();
+        //todo comentario verde atoa.
 
+        System.out.print("Insira a velocidade: ");
+        velocidade = sc.nextDouble();
         System.out.print("Insira o angulo: ");
         angulo = Math.toRadians(sc.nextDouble());
 
@@ -24,7 +25,7 @@ public class Main {
         vx = velocidade * Math.cos(angulo);
         vy = velocidade * Math.cos(angulo);
 
-        t = 0.0;//TESTER: t != 0.01
+        t = 0.01;//TESTER: t != 0.01
         double x, y;
 
         System.out.print("Tempo(s)| X(m) | Y(m)");
@@ -37,9 +38,7 @@ public class Main {
             if (y < 0)break;;//TESTER: Dois ;
 
             System.out.printf("%.2f  | %.2f | %.2f\n", t , x , y );
-
             t += intervalo;
         }while (y >= 0);
-
     }
 }
