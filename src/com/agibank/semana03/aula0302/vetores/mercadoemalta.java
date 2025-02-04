@@ -17,7 +17,7 @@ public class mercadoemalta {
         }
 
         for (i = 1; i < 10; i++) {
-            if (precos[i] > precos[i - 1]) {
+            if (precos[i] < precos[i + 1] && precos[i + 1] < precos[i + 2]) {
                 contador++;
                 if (contador >= 2) {
                     tendencia = true;
