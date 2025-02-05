@@ -9,7 +9,6 @@ public class altabaixa {
         int i, diaAlto, diaBaixo;
 
         for (i = 0; i < precos.length; i++){
-           while (precos[i + 1] > precos[i])
         }
 
 
