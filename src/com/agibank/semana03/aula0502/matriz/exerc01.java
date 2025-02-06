@@ -1,7 +1,7 @@
 package com.agibank.semana03.aula0502.matriz;
 import java.util.Scanner;
 
-public class exemplo01 {
+public class exerc01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
