@@ -16,6 +16,7 @@ public class exerc03 {
 
     }
     static float CalcularCrescimento(float d1, float d2){
+
         return (d2 - d1) / d1 * 100;
     }
 }
