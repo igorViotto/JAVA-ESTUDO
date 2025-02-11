@@ -1,4 +1,4 @@
-package com.agibank.semana04;
+package com.agibank.semana04.aula1002;
 import java.util.Scanner;
 
 public class aula1002 {

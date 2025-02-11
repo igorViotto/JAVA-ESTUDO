@@ -1,6 +1,5 @@
-package com.agibank.semana04.exercicios;
+package com.agibank.semana04.aula1002.exercicios;
 import java.util.Arrays;
-import  java.util.Scanner;
 
 public class exerc04 {
     public static void main(String[] args) {

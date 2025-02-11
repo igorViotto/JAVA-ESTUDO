@@ -1,4 +1,4 @@
-package com.agibank.semana04.exercicios;
+package com.agibank.semana04.aula1002.exercicios;
 import java.util.Scanner;
 
 public class exerc07 {
