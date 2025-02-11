@@ -17,7 +17,6 @@ public class exerc05 {
 
     }
     static float compararAtivos(float ativo1, float ativo2){
-
         float maior;
 
         if (ativo1 > ativo2){
