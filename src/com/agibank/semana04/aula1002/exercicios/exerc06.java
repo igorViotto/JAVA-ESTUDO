@@ -31,7 +31,6 @@ public class exerc06 {
             desvioAoQuadrado[i] = desvio * desvio;//todo, CADA ÍNDICE DO VETOR 'desvioAoQuadrado[]', RECEBE TODOS OS RESULTADOS DA SUBTRAÇÃO AO QUADRADO
         }
 
-        //fixme - Arumar o método 'calcularVolatidade'
         double somaDesvio = 0;
         for (int i = 0; i < valores.length; i++){
             somaDesvio += desvioAoQuadrado[i];//todo, SOMA TODOS OS VALORES DO VETOR 'desvioAoQuadrado[]'E GUARDA EM 'somaDesvio'
