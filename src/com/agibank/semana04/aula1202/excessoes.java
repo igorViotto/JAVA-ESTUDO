@@ -5,10 +5,10 @@ public class excessoes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        //todo, EXCESSOES - TRATAMNTO DE VALORES INDESEJADOS
+        //todo, EXCESSOES - TRATAMENTO DE VALORES INDESEJADOS
         //todo,try-catch-finally:
         //funcionalidade que permitem que o programador lide com excessoes que ocorram
-        //contolando o fluxo de execucao do codigo em situaçoes imprevistas
+        //controlando o fluxo de execucao do codigo em situaçoes imprevistas
 
         try {
             int n1 = 20;
