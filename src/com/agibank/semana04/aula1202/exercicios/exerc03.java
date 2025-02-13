@@ -1,4 +1,4 @@
-package com.agibank.semana04.aula1202;
+package com.agibank.semana04.aula1202.exercicios;
 
 public class exerc03 {
     public static void main(String[] args) {
