@@ -2,6 +2,7 @@ package com.agibank.semana03.aula0502.matriz;
 import  java.util.Scanner;
 
 public class exerc03 {
+    public static final String YE = "\u001B[33m";
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -40,7 +41,7 @@ public class exerc03 {
 
         System.out.print("\nA diagonal principal é: ");
         for (int i = 0; i < matriz.length; i++) {
-            System.out.print(matriz[i][i] + " ");
+            System.out.print(YE+matriz[i][i] + " ");
         }
 
 
